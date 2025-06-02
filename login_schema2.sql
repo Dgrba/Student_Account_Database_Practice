@@ -34,12 +34,12 @@ create table enrollsIn (
 
 DROP SEQUENCE ID_Increment;
 CREATE SEQUENCE ID_Increment
-    INCREMENT BY 1
-    START WITH 1
-    MINVALUE 1
-    MAXVALUE 100000
-    CYCLE
-    CACHE 4;
+   INCREMENT BY 1
+   START WITH 1
+   MINVALUE 1
+   MAXVALUE 100000
+   CYCLE
+   CACHE 4;
 
 CREATE OR REPLACE VIEW GPA_components
 select totalCreditHours, numberOfCredits, classGrade

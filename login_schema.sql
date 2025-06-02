@@ -14,7 +14,7 @@ create table mystudentsession (
   sessiondate date,
   foreign key (username) references studentList
 );
- 
+
 insert into studentList (username, name, password, isadmin) values ('dgrba', 'Devin Grba', 'pass1', 'N');
 insert into studentList (username, name, password, isadmin) values ('bbrooks', 'Blake Brooks', 'pass2', 'Y');
 insert into studentList (username, name, password, isadmin) values ('sadmin', 'Student Admin', 'pass3', 'S');

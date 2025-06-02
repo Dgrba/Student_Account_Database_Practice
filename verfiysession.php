@@ -19,8 +19,8 @@ else {
   else{
     // lookup the sessionid in the session table to get the username
     $sql = "select username " .
-       "from mystudentsession " .
-       "where sessionid='$sessionid'";
+          "from mystudentsession " .
+          "where sessionid='$sessionid'";
 
     $cursor = oci_parse($connection, $sql);
     if($cursor == false){

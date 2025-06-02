@@ -15,8 +15,8 @@ include "verifysession.php";
 		echo($e['message']);
 	}
 	$sql = "update studentList 
-       set password = '$newpassword' 
-       where username = '$username'";
+       		set password = '$newpassword' 
+       		where username = '$username'";
 	   
 	$cursor = oci_parse($connection, $sql);
 	if(!$cursor){
