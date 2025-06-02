@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+<TITLE>New User Page</TITLE>
+	</HEAD>
+<BODY style="text-align:center;">
+<HEADER>
+<h1>New Student Implementation</h1>
+	</HEADER>
+<form action = "useradd.php" method "post">
+	<label for="studentFirstName">First Name: </label>
+		<input type="text" id="studentFirstName" name="studentFirstName"><br><br>
+	<label for="studentLastName">Last Name: </label>
+		<input type="text" id="studentLastName" name="studentLastName"><br><br>
+	<label for="studentAge">Age: </label>
+		<input type="text" id="studentAge" name="studentAge"><br><br>
+	<label for="studentAddress">Address: </label>
+		<input type="text" id="studentAddress" name="studentAddress"><br><br>
+	<label for="studentType">Major Abbreviation: </label>
+		<input type="text" id="studentType" name="studentType"><br><br>
+	<input type= "submit" value= "Submit"><br><br>
+</form>
+<input type="button" value="Back" onclick="history.go(-1)"><br><br>
+<form action="student_logout.php" method="get">
+    <input type="submit" name="logout" value="Logout" />
+</form>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
